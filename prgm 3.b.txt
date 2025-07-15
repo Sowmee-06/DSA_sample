@@ -1,0 +1,9 @@
+4. Rotate a list to the left by 'K' position :
+def rotate_left(arr, k):
+    n = len(arr)
+    k %= n
+    return arr[+k:] + arr[:+k]
+print(rotate_left([1, 2, 3, 4, 5], 2))
+OUTPUT :
+[3, 4, 5, 1, 2]
+=== Code Execution Successful ===

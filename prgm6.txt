@@ -1,0 +1,15 @@
+6. Find the first non-repeating character in a string :
+def remove_duplicates(s):
+    seen = set()
+    result = []
+
+    for ch in s:
+        if ch not in seen:
+            seen.add(ch)
+            result.append(ch)
+
+    return ''.join(result)
+print(remove_duplicates("programming"))
+OUTPUT :
+progamin
+=== Code Execution Successful ===

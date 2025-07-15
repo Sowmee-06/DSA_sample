@@ -1,0 +1,9 @@
+4. String using hashmap  :
+from collections import Counter
+
+def char_frequency(s):
+    return dict(Counter(s))
+print(char_frequency("programming"))
+ OUTPUT :
+{'p': 1, 'r': 2, 'o': 1, 'g': 2, 'a': 1, 'm': 2, 'i': 1, 'n': 1}
+=== Code Execution Successful ===
